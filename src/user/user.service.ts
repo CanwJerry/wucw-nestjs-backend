@@ -17,4 +17,12 @@ export class UserService {
       msg: '添加用户成功 2',
     };
   }
+
+  delUsers() {
+    return {
+      code: 0,
+      data: [],
+      msg: '删除用户成功',
+    };
+  }
 }
